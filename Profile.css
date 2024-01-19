@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    height:100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.container{ 
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 12%);
+    padding:130px 50px;
+    flex-direction: column;
+    display: flow-root;
+    border-radius: 15px;
+    color:white;
+    font-family: 'Inter', sans-serif;
+    padding-bottom:20px;
+}
+
+.image img{
+    width:35%;
+    border-radius: 50%;
+    display: block;
+    margin:0 auto;
+    transform: translateY(-100px);
+}
+
+.content{
+    text-align: center;
+    transform: translateY(-80px);
+}
+
+.content h1{
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.content h2{
+    font-size:0.8rem;
+    margin-top:1rem;
+    color:hsl(75, 94%, 57%);
+}
+
+.content p{
+    margin-top:1rem;
+    font-size: 0.8rem;
+}
+
+.socials{
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.socials a{
+    text-decoration: none;
+    color:white;
+}
+
+.socials .social1{
+    background-color: hsl(0, 0%, 20%);
+    padding:15px 50px;
+    border-radius: 10px;
+    transform: translateY(-50px);
+}
+
+.socials .social2{
+    background-color: hsl(0, 0%, 20%);
+    padding:15px 50px;
+    border-radius: 10px;
+    transform: translateY(-40px);
+}
+
+.socials .social3{
+    background-color: hsl(0, 0%, 20%);
+    padding:15px 50px;
+    border-radius: 10px;
+    transform: translateY(-30px);
+}
+
+.socials .social4{
+    background-color: hsl(0, 0%, 20%);
+    padding:15px 50px;
+    border-radius: 10px;
+    transform: translateY(-20px);
+}
+
+.socials .social5{
+    background-color: hsl(0, 0%, 20%);
+    padding:15px 50px;
+    border-radius: 10px;
+    transform: translateY(-10px);
+}
+
+.socials .social1:hover,
+.socials .social2:hover,
+.socials .social3:hover,
+.socials .social4:hover,
+.socials .social5:hover {
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer; 
+}
+
+.socials .social1:hover a,
+.socials .social2:hover a,
+.socials .social3:hover a,
+.socials .social4:hover a,
+.socials .social5:hover a  {
+    color: hsl(0, 0%, 20%);
+}
+
+
